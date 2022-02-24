@@ -12,7 +12,7 @@
 rm(list = ls())  # clear environment
 
 getwd()   
-dirname <- "D:/_Mill/Works_education/Higher/2Year-2/CHHD301-Biostatistics/R_lab/FlieRscript/"
+dirname <- " อย่าลืมเปลี่ยน directory "
 setwd(dirname)  # set the working directory to dir name
 
 
@@ -312,7 +312,7 @@ pct_coloscopy <- round(counts_coloscopy/sum(counts_coloscopy)*100)
 lbls_coloscopy <- paste(pct_coloscopy,"%",sep="")  #??????????????? % ????????????pie
 
 pie(counts_coloscopy, labels = lbls_coloscopy, col = color_coloscopy, main = "Coloscopy in Patients Pie Chart") 
-legend("topright", c("Abnormal","Colorectal cancer", "Normal"), cex = 1.01, fill = color_coloscopy) #��ͺ���͡����չ��������
+legend("topright", c("Abnormal","Colorectal cancer", "Normal"), cex = 1.01, fill = color_coloscopy) #¡ÃÍº·ÕèºÍ¡ÇèÒÊÕ¹Õé¤×ÍÍÐäÃ
 
 
 
