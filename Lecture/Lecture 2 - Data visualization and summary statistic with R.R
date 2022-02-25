@@ -7,7 +7,7 @@
 
 
 getwd()   
-dirname <- "D:/_Mill/Works_education/Higher/2Year-2/CHHD301-Biostatistics/R_lab/FlieRscript/"
+dirname <- " อย่าลืมเปลี่ยน directory "
 setwd(dirname)  # set the working directory to dir name
 
 
@@ -34,7 +34,7 @@ c
 
 #logical vector
 #Refer to elements of a vector using subscripts.
-a[c(2,4)] # 2nd and 4th elements of vector  #index��� 2�Ѻ 4
+a[c(2,4)] # 2nd and 4th elements of vector  #index·Õè 2¡Ñº 4
 
 
 
@@ -43,7 +43,7 @@ a[c(2,4)] # 2nd and 4th elements of vector  #index��� 2�Ѻ 4
 ##========##
 
 # generates 5 x 4 numeric matrix
-y<-matrix(1:20, nrow=5,ncol=4)  #���ҧ1-20 
+y<-matrix(1:20, nrow=5,ncol=4)  #ÊÃéÒ§1-20 
 y
 
 
@@ -94,7 +94,7 @@ mydata$ID # variable ID in the dataframe
 cars
 
 # example of a list containing two lists
-pts <- list(x = cars[,1], y = cars[,2])  #cars = �������R
+pts <- list(x = cars[,1], y = cars[,2])  #cars = ¢éÍÁÙÅã¹R
 pts
 
 
@@ -104,7 +104,7 @@ pts
 
 #-----Import data-----#
 #set working directory
-setwd("D:/_Mill/Works_education/Higher/2Year-2/CHHD301-Biostatistics/R_lab/FlieRscript/")
+setwd(" อย่าลืมเปลี่ยน directory ")
 gbsg_data <- read.csv("../Data/gbsg.csv", header = TRUE, as.is = TRUE)
 
 
